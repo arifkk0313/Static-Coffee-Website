@@ -1,0 +1,330 @@
+body{
+    margin: 0%;
+    background-color: #f1f1f1;
+    
+}
+i{
+    font-size: 100px;
+    margin-left: 250px;
+    float: left;
+    color:#695622
+}
+.head{
+    font-size: 40px;
+    padding-left: 500px;
+    color:#786531;
+    font-family: 'Droid Sans',sans-serif;
+
+    
+}
+.section{
+    background-color: gainsboro;
+    width: 100%;
+    height: 45px;
+    
+}
+.about_section{
+    margin-left: 720px;
+    background-color: gainsboro;
+    height: 45px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+}
+
+
+.by{
+    text-align: center;
+    font-size: 30px;   
+    color: #786531; 
+    letter-spacing: 5px;
+    font-family: 'Mohave', sans-serif;
+    font-weight: 300;
+}
+.main{
+    width: 100%;
+    height: 640px;
+    border: rgb(131, 118, 118) 1px outset;
+    
+}
+.left_section{
+    width: 70%;
+    height: 700px;   
+    float: left;
+}
+.imagecontainer{
+    position: relative;
+    text-align: center;
+    color:#757575;
+
+}
+.imagepara{
+    position: absolute;
+    bottom: 10px;
+    right: 400px;
+    font-size: 24px;
+    letter-spacing: 2px;
+
+    
+
+}
+.image2{
+    width: 100%;
+    height: 640px;
+    
+}
+.right{
+    float: left;
+    width: 30%;
+    height: 700px;
+    
+}
+h3{
+    margin-top: 50px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Mohave', sans-serif;
+    font-weight: 300;
+}
+h4{
+    color: black;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    
+}
+.paragraph{
+    color: #757575;
+    padding-left: 5px;
+    font-weight: 300;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    letter-spacing: normal;
+    
+}
+.brandsections{
+    height: 2000px;
+    width: 100%;
+    position: relative;
+    margin-top: 200px;
+}
+.top5{
+    text-align: center;
+    color: #000000;
+
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.brandimage{
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+}
+.brandname{
+    margin-left: 120px;
+    color: #000;
+}
+.brandpara1{
+    color: #757575;
+    position: absolute;
+    left: 450px;
+    bottom: 1640px;
+    font-weight: 300;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 27px;
+}
+.brandpara2{
+    position: absolute;
+    left: 50px;
+    bottom: 1240px;
+    font-weight: 300;
+    font-size: 27px;
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+}
+.brandimage2{
+    margin-left: 950px;
+}
+.brandname2{
+    margin-left: 1080px;
+    color: #000;
+}
+.brandimage3{
+
+    margin-top: 30px;
+    height: 300px;
+    width: 450px;
+}
+.brandpara3{
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+    position: absolute;
+    left: 400px;
+    bottom: 950px;
+    font-weight: 300;
+    font-size: 27px;
+}
+.brandpara4{
+    margin-left: 50px;
+    position: absolute;
+    right: 600px;
+    bottom: 550px;
+    font-weight: 300;
+    font-size: 27px;
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+}
+.brandimage4{
+    height: 300px;
+    width: 450px;
+    margin-left: 950px;
+}
+.brandname4{
+    margin-left: 1150px;
+    color: black;
+}
+.brandimage5{
+    margin-top: 30px;
+    height: 300px;
+    width: 450px;
+    margin-left: 40px;
+
+}
+.brandpara5{
+    position: absolute;
+    left: 600px;
+    bottom: 100px;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+}
+.brandname5{
+    margin-left: 150px;
+    color: #000;
+}
+.flex{
+    
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.galleryhead{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;;
+}
+
+.flex img{
+    border: #786531 1px solid;
+    height: 400px;
+    width: 360px;
+}
+
+.forms{
+    margin-top: 50px;
+    margin-left: 300px;
+    height: 400px;
+    width: 900px;
+    border: #000000 3px solid; 
+}
+.contact{
+    margin-left:80px ;
+    margin-top: 140px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 24px;
+}
+.nametag{
+    letter-spacing: 4px;
+    margin: 10px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.lastname{
+    letter-spacing: 4px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+.message{
+    position: absolute;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 10px;
+    width: 500px;
+    height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    left: 600px;
+    top: 100px;
+    height: 50px;
+    width: 200px;
+    background-color: #dcdcdc;
+    border: 1px solid #ccc;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: gainsboro;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.left-section{
+    width: 50%;
+    height: 200px;
+    
+}
+.left-section p{
+    
+    margin-left: 100px;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.left-section i{
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: black;
+    margin-left: 100px;
+}
+.right-section{
+    height: 200px;
+    width: 50%;
+}
+.right-section i{
+    font-size: 50px;
+    color: black;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.right-section P{
+    margin-top: 150px;
+    margin-left: 250px;
+    
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.footer_mail{
+    margin-top: 100px;
+}
